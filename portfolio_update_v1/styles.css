@@ -23,6 +23,8 @@ a:hover {
 
 /* Section Styles */
 
+/* Navigation Styles */
+
 .main-nav {
   width: 100%;
   background: black;
@@ -55,6 +57,7 @@ a:hover {
   color: white
 }
 
+/* Index Page - Header Styles */
 header {
   text-align: center;
   background: url('images/charlotte.jpg') no-repeat top center ;
@@ -66,25 +69,34 @@ header {
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 80%;
+  border: 5px solid #e46ee4;
+  transition: all .8s;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: fuchsia;
+  color: whitesmoke;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
+
+.location {
+  background-color: peru;
+  color: black;
+}
+
+/* Interests Page - Header Styles */
 
 .interests-page-header {
   text-align: center;
@@ -112,10 +124,8 @@ header .profile-image:hover {
     0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
-.location {
-  background-color: #222;
-  color: yellow;
-}
+/* Main Section Styles */
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -166,7 +176,7 @@ ul.skills {
   background: #0399ff;
 }
 
-
+/* Footer Section Styles */
 
 footer {
   width: 100%;
