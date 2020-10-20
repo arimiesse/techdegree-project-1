@@ -96,7 +96,7 @@ header .profile-image:hover {
   color: black;
 }
 
-/* Interests Page - Header Styles */
+/* Header Styles */
 
 .interests-page-header {
   text-align: center;
@@ -106,7 +106,7 @@ header .profile-image:hover {
   padding-top: 100px;
 }
 
-.interests-header {
+.fancy-header {
   margin: 150px auto;
   text-align: center;
   color: lightseagreen;
@@ -114,7 +114,9 @@ header .profile-image:hover {
   transition: 0.3s;
 } 
 
-.interests-header:hover {
+/* Used the following link as a learning reference for the text-shadow on the fancy-header below: https://css-tricks.com/snippets/css/two-color-three-dimensional-blocks-and-text/ */
+
+.fancy-header:hover {
   text-shadow: 1px 1px 1px #ccc, 2px 2px 2px #ccc, 
     3px 3px 3px #ccc, 4px 4px 4px #ccc, 
     5px 5px 5px #ccc, 6px 6px 6px #ccc, 
